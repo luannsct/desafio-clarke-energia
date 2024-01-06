@@ -26,7 +26,7 @@ function Proposta() {
 
 
         // Fazer a requisição
-        fetch("http://localhost:4000/v1/cotacao", {
+        fetch("https://api-deploy.cyclic.app/v1/cotacao", {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'
