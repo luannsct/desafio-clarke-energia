@@ -1,9 +1,9 @@
-import Card from '../card/CartaoInformacoes'
+
 
 function Sobre() {
     return (
         <>
-            <Card variant="outlined">Teste</Card>
+            <h1>Sobre</h1>
         </>
     )
 }

@@ -1,11 +1,16 @@
+import ModalCotacaoSelecionado from '../modal/ModalCotacaoSelecionado';
 import styles from '../styles/SubmitButton.module.css'
 
-function SubmitButton({ text }) {
+function SubmitButton({ text, onClick }) {
     return (
-        <div>
-            <button
-                className={styles.btn}>{text}</button>
-        </div>
+        <>
+            <ModalCotacaoSelecionado props={true} />
+            <div>
+                <button
+                    onClick={onClick}
+                    className={styles.btn}>{text}</button>
+            </div>
+        </>
     )
 }
 

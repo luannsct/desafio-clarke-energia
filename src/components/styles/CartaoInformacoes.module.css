@@ -1,6 +1,31 @@
-.cartao_informacoes_fornecedores {
+.cards_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
     margin: 0 auto;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+
+}
+
+.cartao_informacoes_fornecedores {
+    margin: 10px 5px;
     padding: 1em;
     border-radius: 10px;
-    height: auto;
+    width: 350px;
+    color: #373960;
+
+}
+
+.cards_div_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
 }

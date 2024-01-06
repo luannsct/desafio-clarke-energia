@@ -1,0 +1,23 @@
+.informacoes_enviadas_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 17px;
+    margin: 25px;
+    background-color: #ffffff;
+    color: #373960;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.informacoes_enviadas_container ul {
+    list-style-type: none;
+}
+
+.informacoes_enviadas_container li {
+    font-weight: bold;
+}
+
+.informacoes_enviadas_container span {
+    font-weight: normal;
+}
