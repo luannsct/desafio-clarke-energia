@@ -1,7 +1,7 @@
 import styles from '../styles/PropostaForm.module.css'
 import Input from '../form/Input'
 import SubmitButton from '../form/SubmitButton'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 function PropostaForm({ handleSubmit, btnText, propostaData }) {
     const [propostas, setPropostas] = useState(propostaData || {})
 
