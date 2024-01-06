@@ -58,7 +58,7 @@ export default function MultipleCards() {
             consumokwhmensal: empresa.consumokwhmensal
         }
         //novacotacao
-        fetch("http://localhost:4000/v1/novacotacao", {
+        fetch("https://api-deploy.cyclic.app/v1/novacotacao", {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'
