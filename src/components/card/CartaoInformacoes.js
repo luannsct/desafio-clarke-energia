@@ -93,14 +93,6 @@ export default function MultipleCards() {
 
     }
 
-    useEffect(() => {
-        const storedData = localStorage.getItem('dadosRequisicao');
-
-        if (storedData) {
-            setData(JSON.parse(storedData));
-        }
-    }, {});
-
     return (<>
         <ToastContainer />
 
