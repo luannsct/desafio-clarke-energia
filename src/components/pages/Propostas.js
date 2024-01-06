@@ -1,5 +1,3 @@
-import { useLocation } from "react-router-dom";
-import Message from "../layout/Message";
 import MultipleCards from "../card/CartaoInformacoes";
 import styles from '../styles/PropostasCards.module.css';
 import Informacoesenviadas from '../layout/InformacoesEnviadas'
