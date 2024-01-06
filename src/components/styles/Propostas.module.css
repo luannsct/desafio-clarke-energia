@@ -1,0 +1,43 @@
+.novaProposta_container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 74vh;
+    margin: 0 auto;
+}
+
+.novaProposta_container_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 900px;
+}
+
+.novaProposta_container_div_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.novaProposta_container_div_text h1 {
+    font-size: 30pt;
+}
+
+.novaProposta_container_text p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.novaProposta_container_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 440px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-left: 20px;
+}

@@ -1,0 +1,43 @@
+.footer {
+    position: fixed;
+    bottom: 10px;
+    width: 1200px;
+    height: 100px;
+    background-color: #373960;
+    color: #f2f2f2;
+    padding: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* Adicione um valor apropriado */
+
+}
+
+.social_list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 20px;
+}
+
+.social_list li {
+    margin: 0;
+}
+
+.social_list li:hover {
+    color: #f27265;
+}
+
+.social_list svg {
+    cursor: pointer;
+    font-size: 1.5em;
+
+}
+
+
+.copy_right span {
+    font-weight: bold;
+    color: #f2f2f2;
+}
