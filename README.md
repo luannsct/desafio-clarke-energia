@@ -1,70 +1,75 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Desafio Clarke Energia [![Implantado com Vercel](https://vercel.com/button)](https://desafio-clarke-energia.vercel.app/)
 
-## Available Scripts
+Olá, seja muito bem-vindo! Esse é o front do projeto foi feito em React. para acessar o Deploy [Clique aqui](https://desafio-clarke-energia.vercel.app/). Esse projeto foi feito para responder ao desafio feito pela [Clarke Energia](https://clarke.com.br/) para a vaga de DEV FullStack.
 
-In the project directory, you can run:
+## Rodando localmente
 
-### `npm start`
+Clone o projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+  git clone git@github.com:luannsct/desafio-clarke-energia.git
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Entre no diretório do projeto
 
-### `npm test`
+```bash
+  cd desafio-clarke-energia
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Instale as dependências
 
-### `npm run build`
+```bash
+  npm install
+  npm install -D nodemon
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Inicie o servidor
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+  npm run start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Inicie o projeto em.\
+[http://localhost:3000](http://localhost:3000) para ver no navegador.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Solicitação Clarke
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+SPA de escolha de fornecedor. Os usuários poderão informar o seu consumo de energia e escolher o melhor fornecedor de acordo com as suas necessidades.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Dos Requisitos de Produto:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* O usuário deverá informar a sua consumo mensal de energia, exemplo: 30000 kWh (um número fictício > 0)
 
-## Learn More
+* Ao informar o consumo, o sistema deverá mostrar quais fornecedores poderiam atender a necessidade do cliente
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Cada fornecedor deve ter as seguintes informações: nome, logo, estado de origem, custo por kWh, limite mínimo de kWh, número total de clientes e avaliação média dos clientes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Um fornecedor só pode atender um cliente caso o consumo mensal de energia deste seja maior do que o lmite mínimo de kWh do fornecedor
 
-### Code Splitting
+## Deploy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+o Deploy do FrontEnd está rodando na [Vercel](https://desafio-clarke-energia.vercel.app/)
+e o Deploy do BackEnd está rodando na [Cyclic](https://api-deploy.cyclic.app/)
 
-### Analyzing the Bundle Size
+## Stack utilizada
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Front-end:** ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-### Making a Progressive Web App
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+---
+**Back-end:** ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+---
+**SQL**
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
-### Advanced Configuration
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Enviar e-mail ao finalizar a cotação informando todos os detalhes da solicitação;
+- Informar que já há uma solicitação feita ao clicar no botão fazer cotação perguntando se ele deseja ver o Status do pedido (se foi aceito ou não).
 
-### Deployment
+ 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
